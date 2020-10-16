@@ -1,5 +1,4 @@
 {
-  "homepage": "https://lukaszzadamczyk.github.io/Background-animation/",
   "name": "bc-animation",
   "version": "0.1.0",
   "private": true,
@@ -12,9 +11,7 @@
     "react-dom": "^16.14.0",
     "react-scripts": "3.4.3"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+  "scripts": { 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

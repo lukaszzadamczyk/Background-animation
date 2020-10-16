@@ -7,7 +7,7 @@ function App() {
     <div className="animationBalloon">
       <AnimationBg
         className="animationBg fly-cloud"
-        src="/build/img/clouds-37095_640.png"
+        src="/img/clouds-37095_640.png"
         ratioX="0.35"
         ratioY="0.33"
       />
