@@ -34,14 +34,12 @@ class AnimationBg extends Component {
     const { posX, posY } = this.state;
     const { className, src } = this.props;
     return (
-      <div className="animationBalloon">
-        <img
-          src={src}
-          alt=""
-          className={className}
-          style={{ transform: `translate(${posX}px,${posY}px)` }}
-        />
-      </div>
+      <img
+        src={src}
+        alt=""
+        className={className}
+        style={{ transform: `translate(${posX}px,${posY}px)` }}
+      />
     );
   }
 }

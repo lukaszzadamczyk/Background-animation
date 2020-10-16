@@ -4,7 +4,7 @@ import AnimationBg from "./AnimationBg";
 
 function App() {
   return (
-    <div className="App">
+    <div className="animationBalloon">
       <AnimationBg
         className="animationBg fly-cloud"
         src="/img/clouds-37095_640.png"
